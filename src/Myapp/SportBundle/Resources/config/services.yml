@@ -1,0 +1,4 @@
+services:
+#    myapp_sport.example:
+#        class: Myapp\SportBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

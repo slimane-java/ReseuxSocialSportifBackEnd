@@ -1,0 +1,7 @@
+myapp_sport:
+    resource: "@MyappSportBundle/Resources/config/routing.yml"
+    prefix:   /myapp
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

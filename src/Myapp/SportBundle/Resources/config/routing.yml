@@ -1,0 +1,24 @@
+myapp_sport_homepage:
+    path:     /
+    defaults: { _controller: MyappSportBundle:Default:index }
+
+myapp_sport_User_Ajouter:
+    path:     /User/Ajouter
+    defaults: { _controller: MyappSportBundle:Default:Ajouter }    
+
+myapp_sport_User_FindByEmilPasswored:
+    path:     /User/FindByEmilPasswored
+    defaults: { _controller: MyappSportBundle:Default:FindByEmilPasswored }    
+
+myapp_sport_User_FindById:
+    path:     /User/FindById/{Id}
+    defaults: { _controller: MyappSportBundle:Default:FindById }  
+
+
+myapp_sport_Sport_Lister:
+    path:     /Sport/Lister
+    defaults: { _controller: MyappSportBundle:Sport:Lister }  
+
+myapp_sport_Sport_Ajouter:
+    path:     /Sport/Ajouter
+    defaults: { _controller: MyappSportBundle:Sport:Ajouter }  
